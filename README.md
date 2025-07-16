@@ -1,14 +1,15 @@
-# Change Their Lives - Zero Barriers
+# Change Their Lives - Empowering Communities
 
-A modern, responsive website for the Zero Barriers organization, focused on empowering individuals to overcome barriers and achieve their full potential.
+A modern, responsive website for Change Their Lives, a non-profit organization dedicated to transforming communities through comprehensive programs that address education, healthcare, and economic development.
 
 ## Features
 
 - **Modern Design**: Clean, responsive layout using Tailwind CSS
-- **Zero Barriers Branding**: Uses the organization's red and green color scheme
+- **Change Their Lives Branding**: Uses the organization's blue and gold color scheme
 - **Accessible**: Built with accessibility in mind
 - **Fast Loading**: Optimized for performance
 - **Mobile Friendly**: Responsive design that works on all devices
+- **Complete Content**: Includes all main sections: Home, About, Sponsors, Partners, and Contact
 
 ## Technology Stack
 
@@ -67,17 +68,53 @@ The site will be available at: `https://changetheirlives.pages.dev`
 
 ```
 changetheirlives/
-├── index.html          # Main website file
+├── index.html          # Main website file with all sections
 ├── README.md           # This file
 └── .gitignore          # Git ignore file
 ```
 
+## Website Sections
+
+The website includes the following sections:
+
+### Home
+- Hero section with mission statement
+- Call-to-action buttons
+
+### About
+- Organization overview
+- Three main program areas: Education, Healthcare, Economic Development
+- Mission statement and impact statistics
+
+### Sponsors
+- Information about different types of sponsors
+- Call-to-action for potential sponsors
+
+### Partners
+- Strategic and program partners
+- Partnership opportunities
+
+### Contact
+- Complete contact information
+- Social media links
+- Ways to get involved
+
+## Contact Information
+
+- **Address**: 518 E 800 N, Suite D, Orem, UT 84097
+- **Email**: info@changetheirlives.org
+- **Social Media**:
+  - LinkedIn: https://www.linkedin.com/company/change-their-lives/
+  - Facebook: https://www.facebook.com/people/Change-Their-Lives/61555553176499/
+  - Instagram: https://www.instagram.com/change.their.lives/
+
 ## Customization
 
 ### Colors
-The website uses Zero Barriers brand colors:
-- **Green** (`#16a34a`): Used for growth areas and positive elements
-- **Red** (`#dc2626`): Used for areas needing improvement
+The website uses Change Their Lives brand colors:
+- **Primary Blue** (`#1e40af`): Main brand color
+- **Secondary Blue** (`#3b82f6`): Supporting color
+- **Accent Gold** (`#f59e0b`): Highlight color
 
 ### Content
 Update the content in `index.html` to match your organization's specific:
@@ -122,4 +159,4 @@ For support or questions about this website, please contact:
 
 ---
 
-**Zero Barriers** - Empowering individuals to overcome barriers and achieve their full potential. 
+**Change Their Lives** - Empowering communities through education, healthcare, and economic development. 
