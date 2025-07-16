@@ -1,0 +1,23 @@
+{
+  "name": "changetheirlives",
+  "version": "1.0.0",
+  "description": "Change Their Lives - Empowering Communities",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "dev": "npx http-server -p 8000",
+    "start": "npx http-server -p 8000"
+  },
+  "keywords": [
+    "nonprofit",
+    "community",
+    "education",
+    "healthcare",
+    "economic-development"
+  ],
+  "author": "Change Their Lives",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 

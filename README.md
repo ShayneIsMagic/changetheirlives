@@ -47,7 +47,7 @@ To run this project locally:
 This project is configured for easy deployment to Cloudflare Pages:
 
 ### Build Settings for Cloudflare Pages:
-- **Build Command**: Leave empty (no build process needed)
+- **Build Command**: `npm run build`
 - **Build Output Directory**: `.` (root directory)
 - **Root Directory**: Leave empty (use repository root)
 
@@ -69,6 +69,9 @@ The site will be available at: `https://changetheirlives.pages.dev`
 ```
 changetheirlives/
 ├── index.html          # Main website file with all sections
+├── package.json        # Project configuration and build scripts
+├── _redirects          # Cloudflare Pages routing configuration
+├── _headers            # Security and performance headers
 ├── README.md           # This file
 └── .gitignore          # Git ignore file
 ```
