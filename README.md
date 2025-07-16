@@ -68,7 +68,12 @@ The site will be available at: `https://changetheirlives.pages.dev`
 
 ```
 changetheirlives/
-├── index.html          # Main website file with all sections
+├── index.html          # Main landing page
+├── pages/              # Additional pages (about, contact, sponsors, partners)
+├── assets/             # Images, videos, and other assets
+├── styles/             # CSS stylesheets
+├── scripts/            # JavaScript files
+├── core/               # Header and footer components
 ├── package.json        # Project configuration and build scripts
 ├── _redirects          # Cloudflare Pages routing configuration
 ├── _headers            # Security and performance headers

@@ -1,0 +1,94 @@
+@import "./variables.css";
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container {
+  background-color: var(--dark-purple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  padding: 50px 0;
+  border-bottom: 1px solid white;
+}
+
+.footer-logo-wrapper {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  font-size: 13px;
+}
+
+.footer-wrapper > .footer-links > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.privacy-links {
+  display: flex;
+  gap: 35px;
+  width: 80%;
+  white-space: nowrap;
+}
+
+.privacy-links > a {
+  text-decoration: none;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  width: 160px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.footer-bottom-links {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  gap: 35px;
+  width: 100%;
+  padding: 15px 0 5px 0;
+}
+
+h4 {
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+h6 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+h6 > a {
+  margin-left: 3px;
+  text-decoration: underline;
+}

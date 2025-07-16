@@ -1,0 +1,324 @@
+@media (max-width: 1250px) {
+  .partner-container > .testimonials-sections {
+    padding-bottom: 114px;
+  }
+
+  .partner-container > .testimonials-section > .testimonial-content-container {
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    height: unset;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .testimonial-wrapper {
+    padding: 0px 27px;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .testimonial-wrapper
+    > h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .testimonial-wrapper
+    > p {
+    font-size: 16px;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .testimonial-wrapper
+    > .buttons-wrapper {
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .amee-video-container {
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    height: 90vw;
+    max-height: 600px;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .amee-video-container
+    > video {
+    border-radius: 0 0 12px 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .partner-container > .partnership-testimonials-section {
+    padding: 25px 5%;
+  }
+
+  .partner-container
+    > .partnership-testimonials-section
+    > .partnership-content-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .partner-container
+    > .partnership-testimonials-section
+    > .partnership-content-wrapper
+    > button {
+    order: 1;
+    margin-top: 30px;
+  }
+
+  .partner-container
+    > .partnership-testimonials-section
+    > .partnership-content-wrapper
+    > .partnership-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partner-container
+    > .partnership-testimonials-section
+    > .partnership-content-wrapper
+    > .partnership-content
+    > img {
+    height: 130px;
+    width: 130px;
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .partner-container
+    > .partnership-testimonials-section
+    > .partnership-content-wrapper
+    > .partnership-content
+    > .partnership-text-wrapper {
+    width: 100%;
+    max-width: unset;
+    margin-left: 0;
+    min-height: 233px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-container > .hero-container > p {
+    font-size: 16px;
+  }
+
+  .partner-container > .carousel-section > h2 {
+    font-size: 24px;
+    width: 75%;
+  }
+
+  .partner-container
+    > .carousel-section
+    > .carousel-text
+    > .carousel-text-header {
+    margin: 30px 0 0 0;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .amee-video-container
+    > i {
+    font-size: 60px;
+  }
+
+  .partner-container > .testimonials-section > h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .partner-container
+    > .testimonials-section
+    > .testimonial-content-container
+    > .testimonial-wrapper
+    > h2 {
+    font-size: 24px;
+  }
+
+  .partner-container > .partnership-testimonials-section > h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+
+  .partner-container > .faqs-section {
+    gap: 6px;
+  }
+
+  .partner-container > .faqs-section > h2 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-container > .faqs-section > .faqs-questions-wrapper > button {
+    padding: 15px 0;
+  }
+
+  .partner-container > .faqs-section > .faqs-navigation-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .partner-container > .faqs-section > .faqs-navigation-wrapper > h3 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-container > .faqs-question > .faqs-answer {
+    padding-left: 0px;
+  }
+
+  .partner-container > .faqs-question > .faqs-answer > ul {
+    padding-left: 18px;
+  }
+
+  .partner-container > .more-questions-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partner-container > .more-questions-section > .more-questions-text-wrapper {
+    width: 100%;
+  }
+
+  .partner-container
+    > .more-questions-section
+    > .more-questions-text-wrapper
+    > h2 {
+    font-size: 24px;
+    width: unset;
+  }
+
+  .partner-container
+    > .more-questions-section
+    > .more-questions-text-wrapper
+    > a {
+    margin-top: 515px;
+    margin-bottom: 30px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .partner-container
+    > .more-questions-section
+    > .more-questions-text-wrapper
+    > p {
+    font-size: 16px;
+    white-space: nowrap;
+    font-weight: 300;
+  }
+
+  .partner-container > .more-questions-section > img {
+    position: absolute;
+    height: unset;
+    width: 80vw;
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 425px) {
+  .partner-container > .hero-container {
+    background-color: var(--medium-purple);
+    background-image: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 586px;
+  }
+
+  .partner-container > .hero-container > img {
+    display: unset;
+    width: 100%;
+    padding: 0;
+    background-color: var(--dark-purple);
+    opacity: 42%;
+  }
+
+  .partner-container > .hero-container > h1 {
+    padding-left: 5%;
+    font-size: 24px;
+    width: 95%;
+  }
+
+  .partner-container > .hero-container > p {
+    padding: 5%;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .partner-container > .hero-container > a {
+    margin: auto 0;
+  }
+
+  .partner-container > .hero-container > a > button {
+    margin: 0;
+  }
+
+  .partner-container > .hero-container > a > .outline-button {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .partner-container > .carousel-section > .carousel-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .partner-container
+    > .carousel-section
+    > .carousel-container
+    > .carousel-card {
+    width: 80vw;
+    max-width: unset;
+    border-radius: 8px;
+    height: 189px;
+    margin: 5% 0;
+  }
+
+  .partner-container > .carousel-section > .carousel-container > .carousel-btn {
+    order: 1;
+  }
+
+  .partner-container > .carousel-section > .carousel-text > .carousel-subtext {
+    font-size: 16px;
+    padding: 0 23px;
+    width: 80vw;
+    max-width: unset;
+  }
+
+  .partner-container
+    > .partnership-testimonials-section
+    > .partnership-content-wrapper
+    > .partnership-content {
+    max-width: unset;
+  }
+
+  .partner-container > .faqs-section > .faqs-questions-wrapper > .faqs-answer {
+    padding-left: 30px;
+  }
+}

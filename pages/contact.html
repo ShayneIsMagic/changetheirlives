@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="icon" type="image/icon" href="/assets/images/favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="../styles/common.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/contact.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/footer.css" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="../styles/media-queries/contact-queries.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/media-queries/header.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/media-queries/footer.css"
+      type="text/css"
+    />
+    <script type="text/javascript">
+      const onloadCallback = function () {
+        grecaptcha.render(document.getElementsByClassName("g-recaptcha"), {
+          sitekey: "6LeOB50pAAAAABecdPBSk1kuqeIrLm-hkOSofe_S",
+        });
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+    <div class="header-container"></div>
+
+    <div class="contact-container">
+      <div class="contact-wrapper">
+        <div class="contact-header-wrapper">
+          <div class="contact-header">
+            <h4>"Empowering communities, one life at a time."</h4>
+            <h1>Change Their Lives Contact</h1>
+
+            <img
+              src="../assets/images/contact-mobile.jpg"
+              alt="Man at computer"
+            />
+          </div>
+
+          <div class="contact-form-wrapper">
+            <div class="form-text">
+              <h4>Want to learn more?</h4>
+              <h2>Contact Us</h2>
+              <p>
+                If you'd like to know more about our process, how donations are
+                used, or what drives us, please fill out the form below.
+              </p>
+            </div>
+
+            <form id="contact-form">
+              <div class="user-info-wrapper">
+                <div>
+                  <label for="first-name">First Name</label>
+                  <input
+                    id="first-name"
+                    name="first-name"
+                    type="text"
+                    autocomplete="given-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="last-name">Last Name</label>
+                  <input
+                    id="last-name"
+                    name="last-name"
+                    type="text"
+                    autocomplete="family-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="phone">Phone Number</label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    required
+                  />
+                </div>
+
+                <div class="subject">
+                  <label for="subject">Subject</label>
+                  <input id="subject" name="subject" type="text" required />
+                </div>
+              </div>
+
+              <legend>What would you like to learn more about?</legend>
+              <fieldset>
+                <div>
+                  <input
+                    id="ways-to-donate"
+                    name="ways-to-donate"
+                    type="checkbox"
+                    value="ways-to-donate"
+                  />Ways to donate
+                </div>
+
+                <div>
+                  <input
+                    id="our-mission"
+                    name="our-mission"
+                    type="checkbox"
+                    value="our-mission"
+                  />Our Mission
+                </div>
+
+                <div>
+                  <input
+                    id="our-sponsors"
+                    name="our-sponsors"
+                    type="checkbox"
+                    value="our-sponsors"
+                  />Our Sponsors
+                </div>
+
+                <div>
+                  <input
+                    id="becoming-a-sponsor"
+                    name="becoming-a-sponsor"
+                    type="checkbox"
+                    value="becoming-a-sponsor"
+                  />Becoming a sponsor
+                </div>
+
+                <div>
+                  <input
+                    id="who-we-are"
+                    name="who-we-are"
+                    type="checkbox"
+                    value="who-we-are"
+                  />Who we are
+                </div>
+
+                <div>
+                  <input
+                    id="volunteering"
+                    name="volunteering"
+                    type="checkbox"
+                    value="volunteering"
+                  />Volunteering as a mentor
+                </div>
+              </fieldset>
+
+              <div class="message">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  type="text"
+                  placeholder="Leave your message"
+                  required
+                ></textarea>
+              </div>
+              <div
+                class="g-recaptcha"
+                data-sitekey="6LeOB50pAAAAABecdPBSk1kuqeIrLm-hkOSofe_S"
+                data-callback="recaptchaDataCallback"
+                data-expired-callback="recaptchaExpiredCallback"
+              ></div>
+              <button type="submit" id="submit-button" class="solid-button">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="company-info-wrapper">
+          <div class="get-in-touch-wrapper">
+            <h2>Get In Touch With Us</h2>
+            <p>
+              Please feel free to reach out to see how your donation can impact
+              a life today.
+            </p>
+          </div>
+
+          <div class="contact-map-wrapper">
+            <div class="email-location-wrapper">
+              <div class="email">
+                <div class="icon-text-wrapper">
+                  <i class="fa-solid fa-envelope"></i>
+                  <h3>Email</h3>
+                </div>
+
+                <p>
+                  We would greatly appreciate receiving any feedback you may
+                  have.
+                </p>
+
+                <a
+                  href="mailto:info@changetheirlives.org?subject = Feedback&body = Contact Us"
+                >
+                  info@changetheirlives.org
+                </a>
+              </div>
+
+              <div class="office">
+                <div class="icon-text-wrapper">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h3>Office</h3>
+                </div>
+
+                <p>518 E 800 N, Suite D, Orem, UT 84097</p>
+              </div>
+            </div>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.402584155726!2d-111.68596492271126!3d40.3112219620522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d854c87a9873d%3A0xc67b81fea8e6ed63!2s518%20E%20800%20N%2C%20Orem%2C%20UT%2084097!5e0!3m2!1sen!2sus!4v1707157848992!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen="false"
+              loading="async"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-container"></div>
+      <div class="toast-container"></div>
+    </div>
+  </body>
+  <script src="../scripts/headerComp.js" type="text/javascript"></script>
+  <script src="../scripts/footerComp.js" type="text/javascript"></script>
+  <script src="../scripts/donation.js" type="text/javascript"></script>
+  <script src="../scripts/sendEmail.js" type="text/javascript"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+  </script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+</html>

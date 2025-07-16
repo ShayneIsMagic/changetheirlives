@@ -1,0 +1,60 @@
+@import "./variables.css";
+
+a {
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  overflow: hidden;
+  margin: 0;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  background-color: var(--dark-purple);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 0px;
+}
+
+.title-logo-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  width: 250px;
+}
+
+.navbar-links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.navbar-button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  width: 250px;
+}
+
+.hamburger-icon {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  width: 100px;
+}

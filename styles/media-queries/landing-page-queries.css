@@ -1,0 +1,363 @@
+@media (max-width: 1000px) {
+  .content-container h1 {
+    font-size: 20px;
+  }
+
+  .content-container h4 {
+    font-size: 20px;
+  }
+
+  .content-container .font-group {
+    font-size: 16px;
+  }
+
+  .content-container .donation-buttons > button,
+  .content-container p,
+  .content-container a,
+  .content-container button,
+  .where-to-send {
+    font-size: 14px;
+  }
+
+  .content-container .donation-buttons button {
+    padding: 8px 18px;
+  }
+
+  .content-container > .hero-wrapper {
+    background-image: none;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content-container > .hero-wrapper > .hero-content-wrapper {
+    width: 90%;
+    padding: 0;
+    margin: 4% auto 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .hero-text-title {
+    min-width: 0;
+  }
+
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .hero-text-slogan {
+    font-size: 18px;
+  }
+
+  .content-container > .hero-wrapper > .hero-content-wrapper > .hero-image {
+    background: url("../../assets/images/landing-hero.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 100%;
+    margin: 3% 0;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .hero-text-paragraph {
+    text-align: left;
+  }
+
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .donation-buttons {
+    margin: 5% 0;
+  }
+
+  .content-container > .changing-lives-header {
+    margin-left: 18px;
+  }
+
+  .content-container > .video-wrapper {
+    margin: 3% 0;
+  }
+
+  .content-container > .video-wrapper > .video-foreground {
+    width: 100%;
+  }
+
+  .content-container > .video-wrapper > .video-foreground > video {
+    width: 90%;
+  }
+
+  .content-container > .philanthropic-focus-area {
+    width: 90%;
+  }
+
+  .content-container > .philanthropic-focus-area > .info-top {
+    display: block;
+    text-align: left;
+    margin-left: 12px;
+  }
+
+  .content-container > .philanthropic-focus-area > .info-top p {
+    width: 100%;
+  }
+
+  .content-container > .philanthropic-focus-area > .info-section-wrapper {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 0.7fr);
+    gap: 5%;
+    height: 100%;
+  }
+
+  .content-container > .philanthropic-focus-area > .info-section-wrapper > img {
+    grid-row-start: 1;
+    width: 105%;
+  }
+
+  .content-container
+    > .philanthropic-focus-area
+    > .info-section-wrapper
+    > .info-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .content-container
+    > .philanthropic-focus-area
+    > .info-section-wrapper
+    > .info-column
+    > h4 {
+    margin: 10% 0 0 0;
+  }
+
+  .content-container > .philanthropic-focus-area > .info-section-wrapper > img {
+    min-width: 300px;
+    width: 90%;
+  }
+
+  .content-container
+    > .philanthropic-focus-area
+    > .info-section-wrapper
+    > .info-column
+    > .info-box
+    > .landing-icon {
+    font-size: 50px;
+  }
+
+  .content-container > .philanthropic-focus-area > .donation-buttons-wrapper {
+    margin-top: 25%;
+  }
+
+  .content-container > .campaign-wrapper > .campaign-header-wrapper,
+  .content-container > .campaign-wrapper > .donation-total-wrapper {
+    width: 90%;
+  }
+
+  .content-container > .make-donation-wrapper {
+    width: 90%;
+  }
+
+  .content-container
+    > .make-donation-wrapper
+    > .online-donation-wrapper
+    > .custom-donation-buttons
+    > button {
+    font-size: 16px;
+    padding: 1.5% 3%;
+  }
+
+  .content-container
+    > .make-donation-wrapper
+    > .send-check-wrapper
+    > #check-message-wrapper {
+    width: 100%;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 1000px) {
+  .content-container h1 {
+    font-size: 3.5vw;
+  }
+
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .hero-text-slogan {
+    font-size: 3.15vw;
+  }
+
+  .content-container > .hero-wrapper > .hero-content-wrapper > .hero-image {
+    background-position: top;
+  }
+}
+
+@media (min-width: 1001px) {
+  .content-container h1 {
+    font-size: 35px;
+  }
+
+  .content-container h4 {
+    font-size: 20px;
+  }
+
+  .content-container .donation-buttons > button,
+  .content-container p,
+  .content-container a,
+  .content-container button,
+  .where-to-send {
+    font-size: 15px;
+  }
+
+  .content-container .font-group {
+    font-size: 16px;
+  }
+
+  .content-container > .hero-wrapper > .hero-content-wrapper {
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .hero-text-slogan {
+    font-size: 25px;
+  }
+
+  .content-container
+    > .philanthropic-focus-area
+    > .info-section-wrapper
+    > .info-column
+    > .info-box
+    > .landing-icon {
+    font-size: 60px;
+  }
+
+  .content-container > .philanthropic-focus-area > .info-section-wrapper > img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1650px) {
+  .content-container h1 {
+    font-size: 65px;
+  }
+
+  .content-container h4 {
+    font-size: 40px;
+  }
+
+  .content-container .donation-buttons > button,
+  .content-container p,
+  .content-container a,
+  .content-container button,
+  .where-to-send {
+    font-size: 28px;
+  }
+
+  .content-container .font-group {
+    font-size: 23px;
+  }
+
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .hero-text-slogan {
+    font-size: 50px;
+  }
+
+  .content-container
+    > .philanthropic-focus-area
+    > .info-section-wrapper
+    > .info-column
+    > .info-box
+    > .landing-icon {
+    font-size: 80px;
+  }
+
+  .content-container > .campaign-wrapper > .campaign-header-wrapper,
+  .content-container > .campaign-wrapper > .donation-total-wrapper {
+    width: 80%;
+  }
+
+  .content-container
+    > .make-donation-wrapper
+    > .online-donation-wrapper
+    > .custom-donation-buttons {
+    gap: 14px;
+    max-width: 80%;
+  }
+
+  .content-container
+    > .campaign-wrapper
+    > .donation-total-wrapper
+    > .donations-breakdown {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content-container
+    > .campaign-wrapper
+    > .donation-total-wrapper
+    > .donations-breakdown
+    > .donation-info
+    > h2 {
+    font-size: 35px;
+  }
+
+  .content-container
+    > .campaign-wrapper
+    > .donation-total-wrapper
+    > .total-bar-wrapper {
+    height: 2.7rem;
+  }
+}
+
+@media (min-width: 2100px) {
+  .content-container > h1 {
+    font-size: 80px;
+  }
+
+  .content-container > h4 {
+    font-size: 50px;
+  }
+
+  .content-container .donation-buttons > button,
+  .content-container > p,
+  .content-container > a,
+  .content-container > button,
+  .where-to-send {
+    font-size: 40px;
+  }
+
+  .content-container .font-group {
+    font-size: 40px;
+  }
+
+  .content-container
+    > .hero-wrapper
+    > .hero-content-wrapper
+    > .hero-text-slogan {
+    font-size: 65px;
+  }
+
+  .content-container > .philanthropic-focus-area > .info-section-wrapper > img {
+    width: 100%;
+  }
+
+  .content-container
+    > .campaign-wrapper
+    > .donation-total-wrapper
+    > .donations-breakdown
+    > .donation-info
+    > h2 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,7 @@
+:root {
+  --dark-purple: #6b4a8f;
+  --medium-purple: #957eae;
+  --light-purple: #f0edf4;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --purple-box-shadow: 0px 4px 4px 0px rgba(107, 74, 143, 0.5);
+}

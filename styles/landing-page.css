@@ -1,0 +1,305 @@
+.landing-page-container {
+  margin-top: 65px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container p,
+.content-container a,
+.where-to-send,
+.content-container {
+  font-size: 23px;
+  color: var(--dark-purple);
+  line-height: 1.7;
+}
+
+.content-container .font-group {
+  font-size: 20px;
+}
+
+.content-container h4 {
+  font-weight: 700;
+  font-size: 30px;
+  white-space: wrap;
+}
+
+.content-container > .hero-wrapper {
+  background: url("../assets/images/landing-hero.svg") no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position-y: 65px;
+  height: calc(100vh - 65px);
+}
+
+.content-container > .hero-wrapper > .hero-content-wrapper {
+  width: 42%;
+  padding-left: 8%;
+}
+
+.content-container > .hero-wrapper > .hero-content-wrapper > .hero-text-title {
+  min-width: 550px;
+  margin: 14% 0 0 0;
+}
+
+.content-container > .hero-wrapper > .hero-content-wrapper > .hero-text-slogan {
+  font-size: 40px;
+  color: #957eae;
+  margin: 2% 0 5% 0;
+}
+
+.content-container
+  > .hero-wrapper
+  > .hero-content-wrapper
+  > .hero-text-paragraph {
+  font-size: 24px;
+}
+
+.content-container .donation-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.content-container .donation-buttons > button:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in 0.3s;
+}
+
+.content-container > .video-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.content-container > .video-wrapper > .video-foreground {
+  display: flex;
+  width: 90%;
+  background: #f0edf4;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.content-container > .video-wrapper > .video-foreground > video {
+  margin: 2% 0;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content-container > .philanthropic-focus-area {
+  text-align: center;
+  margin: 2% 0 0 0;
+}
+
+.content-container > .philanthropic-focus-area > .info-top p {
+  line-height: 150%;
+  width: 67%;
+  margin: 0 auto;
+}
+
+.content-container > .philanthropic-focus-area > .info-section-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 95%;
+  grid-template-columns: 0.75fr 2fr 0.75fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 2.5%;
+}
+
+.content-container
+  > .philanthropic-focus-area
+  > .info-section-wrapper
+  > .info-column
+  > .info-box
+  > h4 {
+  font-size: 25px;
+  margin: 5% 0 5% 0;
+}
+
+.content-container
+  > .philanthropic-focus-area
+  > .info-section-wrapper
+  > .info-column
+  > .info-box
+  > p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.content-container > .philanthropic-focus-area > .info-section-wrapper > img {
+  min-width: 700px;
+}
+
+.content-container
+  > .philanthropic-focus-area
+  > .info-section-wrapper
+  > .info-column
+  > .info-box
+  > .landing-icon {
+  font-size: 55px;
+  margin-top: 8%;
+}
+
+.content-container > .philanthropic-focus-area > .donation-buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.content-container > .campaign-wrapper > img {
+  max-width: 100%;
+  width: 100vw;
+  align-self: center;
+}
+
+.content-container
+  > .campaign-wrapper
+  > .donation-total-wrapper
+  > .total-bar-wrapper {
+  height: 2rem;
+  border-radius: 30px;
+  background-color: #f0edf4;
+  margin-top: 3.5%;
+}
+
+.content-container > .campaign-wrapper > .campaign-header-wrapper,
+.content-container > .campaign-wrapper > .donation-total-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+.content-container
+  > .campaign-wrapper
+  > .donation-total-wrapper
+  > .total-bar-wrapper
+  > .total-bar-fill {
+  background-color: var(--dark-purple);
+  width: 40%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.content-container
+  > .campaign-wrapper
+  > .donation-total-wrapper
+  > .donations-breakdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-container
+  > .campaign-wrapper
+  > .donation-total-wrapper
+  > .donations-breakdown
+  > .donation-info
+  > h2 {
+  font-size: 27px;
+  margin-bottom: 7%;
+  font-weight: 900;
+}
+
+.content-container
+  .campaign-wrapper
+  > .donation-total-wrapper
+  > .donations-breakdown
+  > .donation-info
+  > p {
+  margin-top: 7%;
+  font-weight: lighter;
+  color: rgba(107, 74, 143, 0.75);
+}
+
+.content-container > .make-donation-wrapper {
+  text-align: center;
+  width: 80%;
+  margin: 4% 0 7% 0;
+}
+
+.content-container > .make-donation-wrapper > .online-donation-wrapper {
+  border: 1px solid var(--dark-purple);
+  border-radius: 10px;
+}
+
+.content-container > .make-donation-wrapper > .online-donation-wrapper > p {
+  margin: 1% auto;
+  width: 74%;
+}
+
+.content-container
+  .make-donation-wrapper
+  > .online-donation-wrapper
+  > .custom-donation-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 5% auto;
+  justify-content: space-evenly;
+  max-width: 980px;
+}
+
+.content-container
+  .make-donation-wrapper
+  > .online-donation-wrapper
+  > .custom-donation-buttons
+  > button {
+  padding: 0.35% 3%;
+  border-radius: 50px;
+  border: 1px solid var(--dark-purple);
+  background-color: white;
+  transition: all 0.3s ease-out;
+}
+
+.content-container
+  .make-donation-wrapper
+  > .online-donation-wrapper
+  > .custom-donation-buttons
+  > button:hover {
+  background-color: var(--dark-purple);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.content-container
+  > .make-donation-wrapper
+  > .send-check-wrapper
+  > .where-to-send {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 5% 0;
+}
+
+.content-container
+  .make-donation-wrapper
+  > .send-check-wrapper
+  > #check-message-wrapper {
+  display: none;
+  border: 1px solid var(--dark-purple);
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.content-container
+  .make-donation-wrapper
+  > .send-check-wrapper
+  > #check-message-wrapper
+  > p {
+  line-height: 1;
+}
+
+.content-container
+  .make-donation-wrapper
+  > .send-check-wrapper
+  > #check-message-wrapper
+  > p:nth-of-type(1) {
+  font-weight: 800;
+}

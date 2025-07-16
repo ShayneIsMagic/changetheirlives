@@ -1,0 +1,139 @@
+@media (max-width: 768px) {
+  .sponsor-container > .faqs-section {
+    gap: 6px;
+  }
+
+  .sponsor-container > .faqs-section > h2 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sponsor-container > .faqs-section > .faqs-questions-wrapper > button {
+    padding: 15px 0;
+  }
+
+  .sponsor-container > .faqs-section > .faqs-navigation-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .sponsor-container > .faqs-section > .faqs-navigation-wrapper > h3 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sponsor-container > .faqs-question > .faqs-answer {
+    padding-left: 0px;
+  }
+
+  .sponsor-container
+    > .faqs-section
+    > .faqs-questions-wrapper
+    > .faqs-answer
+    > ul {
+    padding-left: 0;
+  }
+
+  .sponsor-container > .more-questions-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sponsor-container > .more-questions-section > .more-questions-text-wrapper {
+    width: 100%;
+  }
+
+  .sponsor-container
+    > .more-questions-section
+    > .more-questions-text-wrapper
+    > h2 {
+    font-size: 24px;
+    width: unset;
+  }
+
+  .sponsor-container
+    > .more-questions-section
+    > .more-questions-text-wrapper
+    > a {
+    margin-top: 515px;
+    margin-bottom: 30px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .sponsor-container
+    > .more-questions-section
+    > .more-questions-text-wrapper
+    > p {
+    font-size: 16px;
+    white-space: nowrap;
+    font-weight: 300;
+  }
+
+  .sponsor-container > .more-questions-section > img {
+    position: absolute;
+    height: unset;
+    width: 80vw;
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 475px) {
+  .sponsor-container > .hero-container {
+    background-color: var(--medium-purple);
+    background-image: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsor-container > .hero-container > img {
+    display: unset;
+    width: 100%;
+    padding: 0;
+    background-color: var(--dark-purple);
+    opacity: 42%;
+  }
+
+  .sponsor-container > .hero-container > h1 {
+    padding-left: 5%;
+    font-size: 24px;
+    width: 95%;
+  }
+
+  .sponsor-container > .hero-container > p {
+    padding: 5%;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .sponsor-container > .hero-container > .outline-button {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+  }
+
+  .sponsor-container > .platinum-sponsors-section > h2 {
+    font-size: 24px;
+    padding: 0 5%;
+  }
+
+  .sponsor-container > .platinum-sponsors-section > .sponsors-card-wrapper {
+    gap: 20px;
+  }
+
+  .sponsor-container > .explore-and-impact-section > h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .sponsor-container > .explore-and-impact-section > p {
+    width: unset;
+    font-size: 16px;
+  }
+}
