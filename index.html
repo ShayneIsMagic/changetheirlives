@@ -3,9 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Change Their Lives</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Change Their Lives - Empowering Communities Through Education & Technology</title>
+    <meta name="title" content="Change Their Lives - Empowering Communities Through Education & Technology" />
+    <meta name="description" content="Change Their Lives is a non-profit organization committed to transforming lives through education and work opportunities. We bridge the educational and skills gap, opening doors to advanced careers in the technology sector for underserved communities." />
+    <meta name="keywords" content="nonprofit, education, technology careers, community development, apprenticeship programs, mentorship, rural America, tech training, workforce development, charitable giving, volunteer opportunities, social impact" />
+    <meta name="author" content="Change Their Lives" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://changetheirlives.org/" />
+    <meta property="og:title" content="Change Their Lives - Empowering Communities Through Education & Technology" />
+    <meta property="og:description" content="Transform lives through education and work opportunities. Bridge the educational and skills gap for underserved communities." />
+    <meta property="og:image" content="https://changetheirlives.org/assets/images/banner-image.png" />
+    <meta property="og:site_name" content="Change Their Lives" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://changetheirlives.org/" />
+    <meta property="twitter:title" content="Change Their Lives - Empowering Communities Through Education & Technology" />
+    <meta property="twitter:description" content="Transform lives through education and work opportunities. Bridge the educational and skills gap for underserved communities." />
+    <meta property="twitter:image" content="https://changetheirlives.org/assets/images/banner-image.png" />
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#6b4a8f" />
+    <meta name="msapplication-TileColor" content="#6b4a8f" />
+    <link rel="canonical" href="https://changetheirlives.org/" />
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.ico" />
 
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -13,17 +55,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/header.css" type="text/css" />
     <link rel="stylesheet" href="styles/landing-page.css" />
     <link rel="stylesheet" href="styles/footer.css" type="text/css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    
+    <!-- Media Queries -->
     <link
       rel="stylesheet"
       href="styles/media-queries/header.css"
@@ -38,6 +83,81 @@
       href="styles/media-queries/footer.css"
       type="text/css"
     />
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID', {
+        page_title: 'Home',
+        page_location: window.location.href,
+        custom_map: {
+          'custom_parameter_1': 'donation_intent',
+          'custom_parameter_2': 'volunteer_intent'
+        }
+      });
+    </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NonProfit",
+      "name": "Change Their Lives",
+      "description": "A non-profit organization committed to transforming lives through education and work opportunities in the technology sector for underserved communities.",
+      "url": "https://changetheirlives.org",
+      "logo": "https://changetheirlives.org/assets/images/devpipeline-logo.svg",
+      "image": "https://changetheirlives.org/assets/images/banner-image.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "518 E 800 N Suite D",
+        "addressLocality": "Orem",
+        "addressRegion": "UT",
+        "postalCode": "84097",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@changetheirlives.org",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/change-their-lives/",
+        "https://www.facebook.com/people/Change-Their-Lives/61555553176499/",
+        "https://www.instagram.com/change.their.lives/"
+      ],
+      "foundingDate": "2020",
+      "areaServed": "United States",
+      "serviceArea": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Educational Programs",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Technology Education Programs",
+              "description": "Educational resources and programs to help individuals succeed in tech careers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mentorship Programs",
+              "description": "Mentorship programs to guide and inspire future leaders"
+            }
+          }
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <div class="landing-page-container">
@@ -63,12 +183,12 @@
             </p>
 
             <div class="donation-buttons">
-              <a class="outline-button font-group" href="pages/contact.html">
+              <a class="outline-button font-group" href="pages/contact.html" onclick="gtag('event', 'click', {'event_category': 'engagement', 'event_label': 'learn_more_button'})">
                 Learn More
               </a>
               <button
                 class="solid-button"
-                onclick="window.location.href = 'pages/contact.html'"
+                onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'donate_button'}); window.location.href = 'pages/contact.html'"
               >
                 Donate
               </button>
@@ -80,7 +200,7 @@
 
         <div class="video-wrapper">
           <div class="video-foreground">
-            <video controls controlsList="nodownload">
+            <video controls controlsList="nodownload" onplay="gtag('event', 'video_play', {'event_category': 'engagement', 'event_label': 'rural_america_video'})">
               <source
                 src="assets/videos/DevPipeline Changing Lives in Rural America.mp4#t=3"
               />
@@ -153,11 +273,11 @@
             <div class="donation-buttons">
               <button
                 class="solid-button font-group"
-                onclick="window.location.href = 'pages/contact.html'"
+                onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'focus_area_donate'}); window.location.href = 'pages/contact.html'"
               >
                 Donate
               </button>
-              <a class="outline-button font-group" href="pages/contact.html">
+              <a class="outline-button font-group" href="pages/contact.html" onclick="gtag('event', 'click', {'event_category': 'engagement', 'event_label': 'focus_area_learn_more'})">
                 Learn More
               </a>
             </div>
@@ -210,22 +330,22 @@
             </p>
 
             <div class="custom-donation-buttons">
-              <button onclick="window.location.href = 'pages/contact.html'">
+              <button onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'donation_50', 'value': 50}); window.location.href = 'pages/contact.html'">
                 $50
               </button>
-              <button onclick="window.location.href = 'pages/contact.html'">
+              <button onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'donation_75', 'value': 75}); window.location.href = 'pages/contact.html'">
                 $75
               </button>
-              <button onclick="window.location.href = 'pages/contact.html'">
+              <button onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'donation_100', 'value': 100}); window.location.href = 'pages/contact.html'">
                 $100
               </button>
-              <button onclick="window.location.href = 'pages/contact.html'">
+              <button onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'donation_200', 'value': 200}); window.location.href = 'pages/contact.html'">
                 $200
               </button>
-              <button onclick="window.location.href = 'pages/contact.html'">
+              <button onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'donation_500', 'value': 500}); window.location.href = 'pages/contact.html'">
                 $500
               </button>
-              <button onclick="window.location.href = 'pages/contact.html'">
+              <button onclick="gtag('event', 'click', {'event_category': 'donation', 'event_label': 'donation_custom'}); window.location.href = 'pages/contact.html'">
                 Custom Amount
               </button>
             </div>
