@@ -6,8 +6,8 @@ const path = require('path');
 
 // Replace these with your actual YouTube video IDs
 const VIDEO_IDS = {
-  kray: 'YOUR_KRAY_VIDEO_ID_HERE', // Replace with actual Kray video ID
-  amee: 'YOUR_AMEE_VIDEO_ID_HERE'  // Replace with actual Amee video ID
+  kray: 'YfjpjXCMSx0', // Kray's Story video ID
+  amee: 'c8dl0IOMDN4'  // Amee's Story video ID
 };
 
 // Update about.html (Kray's video)
