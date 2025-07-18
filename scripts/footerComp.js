@@ -14,42 +14,56 @@ const loadFooterComp = async () => {
     footer.innerHTML = template;
   } catch (error) {
     console.error("Error loading footer:", error);
-    // Fallback footer content
-    footer.innerHTML = `
-      <footer class="footer">
-        <div class="footer-wrapper">
-          <div class="footer-content">
-            <div class="footer-section">
-              <h3>Change Their Lives</h3>
-              <p>Empowering communities through education and work opportunities.</p>
-            </div>
-            <div class="footer-section">
-              <h4>Contact</h4>
-              <p>518 E 800 N Suite D</p>
-              <p>Orem, Utah 84097</p>
-              <p>info@changetheirlives.org</p>
-            </div>
-            <div class="footer-section">
-              <h4>Follow Us</h4>
-              <div class="social-links">
-                <a href="https://www.linkedin.com/company/change-their-lives/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://www.facebook.com/people/Change-Their-Lives/61555553176499/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/change.their.lives/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="footer-bottom">
-            <p>&copy; 2024 Change Their Lives. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-    `;
+                    // Fallback footer content
+                footer.innerHTML = `
+                  <footer class="footer">
+                    <div class="footer-wrapper">
+                      <div class="footer-logo-wrapper">
+                        <a href="${isRoot ? 'index.html' : '../index.html'}">
+                          <img src="${isRoot ? 'assets/images/change-their-lives-logo.jpg' : '../assets/images/change-their-lives-logo.jpg'}" alt="Change Their Lives Logo" width="120" height="44">
+                        </a>
+                      </div>
+                      <div class="footer-links">
+                        <button onclick="window.location.href = '${isRoot ? 'pages/contact.html' : 'contact.html'}'">
+                          Donate Now
+                        </button>
+                        <a>Become a Mentor</a>
+                        <a href="${isRoot ? 'pages/about.html' : 'about.html'}">About Us</a>
+                        <a href="${isRoot ? 'pages/contact.html' : 'contact.html'}">Contact Us</a>
+                        <a href="${isRoot ? 'pages/sponsors.html' : 'sponsors.html'}">Our Sponsors</a>
+                        <a href="${isRoot ? 'pages/partners.html' : 'partners.html'}">Our Partners</a>
+                      </div>
+                      <div class="social-media-links">
+                        <a target="_blank" href="https://www.facebook.com/people/Change-Their-Lives/61555553176499/">
+                          <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/change.their.lives/">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/company/change-their-lives/">
+                          <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a>
+                          <i class="fa-brands fa-youtube"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="footer-bottom">
+                      <div class="footer-bottom-links">
+                        <h4>© 2024 Change Their Lives. All rights reserved.</h4>
+                        <div class="privacy-links">
+                          <a>Privacy Policy</a>
+                          <a>Terms and Conditions</a>
+                          <a>Cookie Policy</a>
+                        </div>
+                      </div>
+                      <h6>
+                        Website Created and Donated by
+                        <a target="_blank" href="https://devpipeline.com/">DevPipeline</a>
+                      </h6>
+                    </div>
+                  </footer>
+                `;
   }
 };
 
