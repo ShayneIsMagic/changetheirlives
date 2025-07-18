@@ -30,7 +30,7 @@ const loadHeaderComp = async () => {
         <div class="header-wrapper">
           <div class="logo-wrapper">
             <a href="${isRoot ? 'index.html' : '../index.html'}">
-              <img src="${isRoot ? 'assets/images/devpipeline-logo.svg' : '../assets/images/devpipeline-logo.svg'}" alt="Change Their Lives Logo" />
+              <img src="${isRoot ? 'assets/images/change-their-lives-logo.jpg' : '../assets/images/change-their-lives-logo.jpg'}" alt="Change Their Lives Logo" />
             </a>
           </div>
           <nav class="navbar">
